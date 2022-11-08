@@ -16,10 +16,9 @@ let tl = gsap.timeline({ paused: true });
 let tl2 = gsap.timeline({ paused: true });
 let tl3 = gsap.timeline({ paused: true });
 
-tl
-  .to(hb_banner, { duration: 1.5, ease: "sine.inOut" } )
-;
-tl.reverse(1.5);
+// tl
+//   .to(hb_banner, { ease: "sine.inOut" } )
+// ;
 
 tl2
 .from(alinas_cake, { scale:0,duration: 1.5, ease: "sine.inOut" })
